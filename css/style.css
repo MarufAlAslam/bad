@@ -1,0 +1,353 @@
+@font-face {
+    font-family: 'bogartTrial';
+    src: url('../fonts/Bogart-Regular-trial.ttf');
+}
+@font-face {
+    font-family: 'bogartTrial-bold';
+    src: url('../fonts/Bogart-Bold-trial.ttf');
+}
+@font-face {
+	font-family: 'adam';
+	src: url('../fonts/ADAM.CG\ PRO.otf');
+}
+*{
+    font-family: 'bogartTrial';
+}
+.adam{
+	font-family: 'adam' !important;
+}
+.font-weight-bold{
+    font-family: 'bogartTrial-bold';
+}
+/* .fs-14{
+    font-size: 14px;
+} */
+.fs-18{
+    font-size: 18px;
+}
+.img-fluid.logo {
+	position: relative;
+	width: 230px;
+	left: 20px;
+}
+.menu.list-unstyled.m-0.p-0 {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	font-size: 18px;
+	max-width: 85%;
+	margin: auto !important;
+}
+.menuBar .btn {
+	position: absolute;
+	left: 45px;
+	top: 7px;
+}
+.menuBar.py-2.border-top.border-bottom a {
+	font-weight: 600;
+}
+.menu.list-unstyled.m-0.p-0 {
+	height: 40px;
+}
+.fa.fa-bars {
+	font-size: 24px;
+}
+
+.container-fluid{
+    max-width: 98%;
+}
+.number{
+    font-family: sans-serif;
+}
+.h-2{
+    height: 2px;
+}
+.menuBar.py-2.border-top.border-bottom {
+	border-top: 1px solid black !important;
+	border-bottom: 1px solid black !important;
+}
+.line{
+    height: 1px;
+}
+.img-fluid.badImg {
+	width: 120px;
+}
+.va-middle{
+    vertical-align: middle;
+}
+.fs-20{
+    font-size: 20px;
+}
+.card-body.border-right.ps-0 {
+	border-right: 1px solid black;
+}
+.line.h-3.bg-dark {
+	height: 3px;
+	width: 200px;
+	position: absolute;
+	left: -15px;
+}
+.fs-24{
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+.form-control{
+    border: 2px solid black !important;
+    border-radius: 0;
+}
+::placeholder{
+    color: black !important;
+}
+.fs-13{
+    font-size: 13px;
+}
+.br-0{
+    border-radius: 0 !important;
+}
+.mostRead h3 {
+	color: #FF95C1;
+	text-shadow: 1px 1px black;
+    font-weight: 600;
+}
+.card.position-relative .card-body{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-start;
+    padding-left: 30px;
+}
+.blue {
+	color: #0972C0 !important;
+    font-weight: 600;
+}
+.card-body.newCard {
+	justify-content: start !important;
+	padding-top: 100px;
+	padding-left: 50px !important;
+}
+.ppp {
+	display: block !important;
+	border-top: 3px solid white !important;
+	padding-top: 15px;
+	border-left: 2px solid white !important;
+	padding-left: 10px !important;
+	width: 50%;
+	margin-bottom: 40px;
+}
+.card-body.sliderCard {
+	padding-left: 10px !important;
+	padding-bottom: 0 !important;
+}
+.fs-12{
+    font-size: 12px;
+}
+/* .card-footer.border-0.bg-transparent .slider {
+	position: absolute;
+	bottom: 0;
+	transform: translateX(150px);
+} */
+.slider {
+	position: relative;
+	top: -340px;
+	transform: translateX(200px);
+    margin-bottom: -340px;
+}
+body, html{
+    overflow-x: hidden;
+}
+section{
+    position: relative;
+}
+.h-line {
+	height: 300px;
+	width: 3px;
+	background-color: black;
+	position: absolute;
+	top: 0;
+	left: 10px;
+}
+.b-line {
+	height: 300px;
+	width: 3px;
+	background: black;
+	position: absolute;
+	bottom: 0;
+	left: 10px;
+}
+.social.py-5 {
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	margin-bottom: 20px;
+}
+.img-fluid.pinky {
+	width: 150px;
+}
+.form-control.searchBar.rounded-pill {
+	background-image: url("../img/search.png");
+	background-repeat: no-repeat;
+	background-size: 20px;
+	background-position: 10px;
+}
+.text-italic{
+    font-style: italic;
+}
+.row.border {
+	border-left: 0 !important;
+	border-right: 0 !important;
+	border-top: 2px solid #808080 !important;
+	border-bottom: 1px solid #808080 !important;
+}
+.row.border1 {
+	border-top: 1px solid #808080;
+	border-bottom: 1px solid #808080;
+}
+.row.border2 {
+	border-top: 1px solid #808080;
+	border-bottom: 2px solid #808080;
+}
+.h1 {
+	line-height: 1;
+}
+.socialIcons {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.socialIcons1 {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.socialIcons i {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.socialIcons1 i {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+td .card.h-100 {
+	height: 205px !important;
+	border-radius: 0 !important;
+	border: unset;
+	overflow: hidden;
+}
+.card-img-top {
+	border-radius: 0 !important;
+}
+.img-fluid.play {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+.presents .fs-12 {
+	position: absolute;
+	bottom: 15px;
+	margin-bottom: 0;
+	line-height: 1.2;
+}
+/* .line {
+	height: 2px;
+} */
+.card.h-100.w-50.float-left {
+	float: left;
+}
+.img-fluid.card-img-top.last {
+	height: 205px;
+}
+.presents .card-body {
+	padding: 0 !important;
+	justify-content: center !important;
+	align-items: center !important;
+}
+.fs-12.text-white.mt-5.p-4.text-center {
+	position: absolute;
+	bottom: 0;
+}
+.img-fluid.play {
+	width: 50px;
+}
+.socialIcons1.mySocial {
+	left: 50px;
+}
+.font-weight-bold.badTitlR {
+	font-size: 80px;
+	position: relative;
+	left: 130px;
+	z-index: 200;
+	top: 0;
+}
+
+.font-weight-bold.presents {
+	position: absolute;
+	bottom: 100px;
+	transform: rotate(-90deg);
+	right: -100px;
+	font-size: 55px;
+}
+.presents .line.bg-dark.w-25.mb-3 {
+	margin-bottom: 30px !important;
+}
+.italic.dear {
+	font-size: 22px;
+	font-style: italic;
+	position: absolute;
+}
+.position-absolute.img-fluid.logoSample {
+	width: 200px;
+	right: -9px;
+	top: 75px;
+}
+.h-line.bg-white {
+	height: 1px;
+	width: 200px;
+	top: 10px;
+	left: 0;
+}
+.b-line.bg-white {
+	height: 1px;
+	width: 200px;
+	bottom: 10px;
+	right: 0;
+    left: unset;
+}
+.bottomBanner {
+	position: relative;
+	top: -100px;
+	margin-bottom: -100px;
+}
+.rotateText.fs-20 {
+	transform: rotate(-90deg);
+	display: inline-block;
+	position: absolute;
+	left: -80px;
+	top: 235px;
+}
+.social .h-line {
+	height: 360px;
+}
+.social .card-footer.border-0.bg-transparent {
+	padding: 0;
+}
+.social.py-5 {
+	padding: 0 !important;
+}
+.img-fluid.logo {
+	position: absolute;
+	left: 50%;
+	top: -20px;
+	transform: translateX(-50%);
+}
+.topBar {
+	height: 85px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
