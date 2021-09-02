@@ -134,7 +134,7 @@
 	text-decoration: underline;
 }
 .topics .form-control.searchBar.rounded-pill {
-	background: ;
+	/* background: ; */
 	background-color: #E4E2E2;
 	border: unset !important;
 	width: 300px;
