@@ -13,11 +13,12 @@
 *{
     font-family: 'bogartTrial';
 }
-.adam{
-	font-family: 'adam' !important;
-}
+
 .font-weight-bold{
     font-family: 'bogartTrial-bold' !important;
+}
+.adam{
+	font-family: 'adam' !important;
 }
 /* .fs-14{
     font-size: 14px;
@@ -130,8 +131,11 @@
 	width: 200px;
 }
 .topics .fs-18 {
-	font-size: 25px !important;
-	text-decoration: underline;
+	font-size: 29px !important;
+	/* text-decoration: underline; */
+	line-height: 1;
+	position: relative;
+	top: 10px;
 }
 .topics .form-control.searchBar.rounded-pill {
 	/* background: ; */
@@ -381,4 +385,10 @@ td .card.h-100 {
 	max-width: 90%;
 	margin-left: auto;
 	margin-right: 45px;
+}
+span .line.inlie-block {
+	width: 60px;
+	height: 1px;
+	background-color: black !important;
+	margin: auto;
 }
