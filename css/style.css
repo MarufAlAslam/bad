@@ -7,6 +7,10 @@
     src: url('../fonts/Bogart-Bold-trial.ttf');
 }
 @font-face {
+    font-family: 'bogartTrial-lightitalic';
+    src: url('../fonts/Bogart-Light-Italic-trial.ttf');
+}
+@font-face {
 	font-family: 'adam';
 	src: url('../fonts/ADAM.CG\ PRO.otf');
 }
@@ -19,6 +23,9 @@
 }
 .adam{
 	font-family: 'adam' !important;
+}
+.light{
+	font-family: 'bogartTrial-lightitalic' !important;
 }
 /* .fs-14{
     font-size: 14px;
@@ -323,7 +330,7 @@ td .card.h-100 {
 	font-style: italic;
 	position: absolute;
 	left: -45px;
-	bottom: -23px;
+	bottom: -30px;
 }
 .position-absolute.img-fluid.logoSample {
 	width: 200px;
