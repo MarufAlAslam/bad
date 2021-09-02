@@ -305,7 +305,7 @@ td .card.h-100 {
 	position: relative;
 	left: 130px;
 	z-index: 200;
-	top: 0;
+	top: 15px;
 }
 
 .font-weight-bold.presents {
@@ -322,6 +322,8 @@ td .card.h-100 {
 	font-size: 22px;
 	font-style: italic;
 	position: absolute;
+	left: -45px;
+	bottom: -23px;
 }
 .position-absolute.img-fluid.logoSample {
 	width: 200px;
