@@ -110,7 +110,7 @@
 	text-shadow: 1px 1px black;
     font-weight: 600;
 }
-.card.position-relative .card-body{
+.card.position-relative .card-body {
     position: absolute;
     top: 0;
     left: 0;
@@ -118,9 +118,28 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: end;
-    align-items: flex-start;
+    justify-content: flex-end;
+    align-items: start;
     padding-left: 30px;
+}
+.bottomBanner .card-body {
+	justify-content: center !important;
+	align-items: center;
+}
+.topics.py-5 img {
+	width: 200px;
+}
+.topics .fs-18 {
+	font-size: 25px !important;
+	text-decoration: underline;
+}
+.topics .form-control.searchBar.rounded-pill {
+	background: ;
+	background-color: #E4E2E2;
+	border: unset !important;
+	width: 300px;
+	right: 100px;
+	position: relative;
 }
 .blue {
 	color: #0972C0 !important;
@@ -306,15 +325,15 @@ td .card.h-100 {
 	top: 75px;
 }
 .h-line.bg-white {
-	height: 1px;
-	width: 200px;
-	top: 10px;
+	height: 2px;
+	width: 165px;
+	top: 30px;
 	left: 0;
 }
 .b-line.bg-white {
-	height: 1px;
-	width: 200px;
-	bottom: 10px;
+	height: 2px;
+	width: 165px;
+	bottom: 30px;
 	right: 0;
     left: unset;
 }
@@ -342,12 +361,23 @@ td .card.h-100 {
 .img-fluid.logo {
 	position: absolute;
 	left: 50%;
-	top: -20px;
+	top: -30px;
 	transform: translateX(-50%);
+	width: 300px;
 }
 .topBar {
 	height: 85px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+.img-fluid.bars {
+	width: 27px;
+}
+.menuBar.py-2.border-top.border-bottom a {
+	font-size: 20px;
+}
+#culture .line.bg-dark.mb-4 {
+	max-width: 95%;
+	margin-left: auto;
 }
