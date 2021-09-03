@@ -35,3 +35,19 @@ $('.slider').slick({
     ]
   });
       
+
+
+  var isOpen = false
+  $('.img-fluid.bars').parent().click(function(){
+    $('.menuDropDown').toggle(300)
+    $('.menubg').show()
+    isOpen = !isOpen
+
+    console.log(isOpen)
+  })
+
+  $('.menubg').click(function(){
+    $('.menuDropDown').toggle(300)
+    $('.menubg').hide()
+    isOpen = !isOpen
+  })
