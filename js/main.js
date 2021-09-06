@@ -51,3 +51,31 @@ $('.slider').slick({
     $('.menubg').hide()
     isOpen = !isOpen
   })
+
+
+  $('.text-dark.loadMore').click(function(e){
+    e.preventDefault()
+    $('.row.MoreArticles').css('display','flex')
+  })
+
+
+  $('.text-dark.loadMore1').click(function(e){
+    e.preventDefault()
+    $('.row.MoreArticles1').css('display','flex')
+  })
+  
+  $('.text-dark.loadMore2').click(function(e){
+    e.preventDefault()
+    $('.row.MoreArticles2').css('display','flex')
+  })
+
+  $('.text-dark.loadMore3').click(function(e){
+    e.preventDefault()
+    $('.row.MoreArticles3').css('display','flex')
+  })
+  $('.text-dark.loadMore4').click(function(e){
+    e.preventDefault()
+    $('.row.MoreArticles4').css('display','flex')
+  })
+
+  $('.img-fluid.logo').attr('src','img/B.A.D. LOGO - HORIZONTAL.svg')

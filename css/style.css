@@ -458,3 +458,40 @@ span .line.inlie-block {
 	background-color: black !important;
 	margin: auto;
 }
+
+.interview.py-5 p {
+	font-size: 22px;
+}
+.row.MoreArticles {
+	display: none;
+	transition: 0.5s;
+}
+.row.MoreArticles1 {
+	display: none;
+	transition: 0.5s;
+}
+.row.MoreArticles2 {
+	display: none;
+	transition: 0.5s;
+}
+.row.MoreArticles3 {
+	display: none;
+	transition: 0.5s;
+}
+.row.MoreArticles4 {
+	display: none;
+	transition: 0.5s;
+}
+.form button {
+	text-transform: uppercase;
+}
+.img-fluid.advice {
+	width: 250px;
+}
+.img-fluid.logo {
+	position: absolute;
+	left: 50%;
+	top: -7px;
+	transform: translateX(-50%);
+	width: 235px;
+}
