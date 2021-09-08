@@ -495,3 +495,8 @@ span .line.inlie-block {
 	transform: translateX(-50%);
 	width: 235px;
 }
+#myTab {
+	justify-content: center;
+	border: unset;
+	margin-bottom: 20px;
+}
