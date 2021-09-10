@@ -506,3 +506,15 @@ span .line.inlie-block {
 .line.bg-dark.py-0.w-25 {
 	width: 200px !important;
 }
+.text-dark.text-decoration-none.readmoreBtn {
+	display: inline-block;
+	width: 150px;
+	background: red;
+	height: 50px;
+	position: absolute;
+	z-index: 20;
+	bottom: 4%;
+	left: 5%;
+	border-radius: 20px;
+	opacity: 0;
+}
