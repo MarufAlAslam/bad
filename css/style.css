@@ -500,3 +500,9 @@ span .line.inlie-block {
 	border: unset;
 	margin-bottom: 20px;
 }
+.img-fluid.white {
+	height: 50px;
+}
+.line.bg-dark.py-0.w-25 {
+	width: 200px !important;
+}
