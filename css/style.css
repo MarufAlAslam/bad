@@ -530,3 +530,8 @@ span .line.inlie-block {
 .img-fluid.card-img-top.last {
 	height: 239px;
 } */
+
+.socialIcons1.mySocial i {
+	font-size: 30px !important;
+	margin-top: 10px;
+}
