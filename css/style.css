@@ -518,3 +518,15 @@ span .line.inlie-block {
 	border-radius: 20px;
 	opacity: 0;
 }
+.img-fluid.va-middle.whitebad {
+	width: 140px;
+}
+/* td .card.h-100 {
+	height: 239px !important;
+	border-radius: 0 !important;
+	border: unset;
+	overflow: hidden;
+}
+.img-fluid.card-img-top.last {
+	height: 239px;
+} */
