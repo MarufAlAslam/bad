@@ -535,3 +535,23 @@ span .line.inlie-block {
 	font-size: 30px !important;
 	margin-top: 10px;
 }
+.fab.fa-facebook-f.fbIcon {
+	position: relative;
+	left: 4px;
+}
+.curated.py-5 {
+	padding-top: 100px !important;
+}
+.img-fluid.va-middle.whitebad {
+	width: 200px;
+}
+.line.line2 {
+	height: 2px;
+}
+.table.weideTable {
+	transform: scale(1.1);
+	position: relative;
+	left: 50px;
+	top: 25px;
+	margin-bottom: 60px;
+}
