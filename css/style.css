@@ -555,3 +555,6 @@ span .line.inlie-block {
 	top: 25px;
 	margin-bottom: 60px;
 }
+.d-inline-block.va-middle.centered.mb-0.curated {
+	font-size: 40px;
+}
