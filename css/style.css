@@ -558,3 +558,24 @@ span .line.inlie-block {
 .d-inline-block.va-middle.centered.mb-0.curated {
 	font-size: 40px;
 }
+body{
+	padding-right: 0 !important;
+}
+.btn.btn-outline-dark.br-0 {
+	border: 2px solid black;
+}
+textarea{
+	resize: unset;
+}
+.btn:focus{
+	outline: unset !important;
+	box-shadow: unset !important;
+}
+.btn-close:focus{
+	outline: unset !important;
+	box-shadow: unset !important;
+}
+.form-control:focus{
+	outline: unset !important;
+	box-shadow: unset !important;
+}
